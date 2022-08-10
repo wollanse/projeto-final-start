@@ -5,6 +5,7 @@ import {Perfil} from './pages/Perfil/Perfil'
 import {Requisicao} from "./pages/Requisiçao/Requisiçao"
 import { Reciclagem } from './pages/Reciclagem/Reciclagem';
 import { Recuperacao } from './pages/Recuperacao/Recuperacao';
+import { RedSenha } from './pages/RedSenha/RedSenha';
 
 import React from 'react'
 import { login } from './pages/Login/Login';
@@ -23,6 +24,7 @@ function Routes() {
                     <Route path="/cadastro" component={Cadastro}/>
                     <Route path="/reciclagem" component={Reciclagem}/>
                     <Route path="/recuperacao" component={Recuperacao}/>
+                    <Route path="/redsenha" component={RedSenha}/>
                 </Switch>
             </BrowserRouter>
         </div>
