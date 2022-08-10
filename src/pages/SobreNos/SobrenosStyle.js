@@ -9,10 +9,15 @@ export const Container = styled.div`
     height: 100%;
 
     .group{
-        justify-content: space-around;
+        justify-content: space-evenly;
         display: flex;
-        margin-top: 50px;
+        margin-top: 80px;
         
+        .link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
     .img1{
         width: 210px;
@@ -27,10 +32,13 @@ export const Container = styled.div`
     p{
         font-size: 20px;
         margin-left: 10px;
+        text-align: center;
     }
     .text{
         font-size: 25px;
-        margin-left: 30%;
-        padding: 1rem;
+        margin-left: 19%;
+        padding: 2rem;
+        margin-top: 60px;
     }
+
 `

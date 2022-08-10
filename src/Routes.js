@@ -4,6 +4,7 @@ import {Sobrenos} from './pages/SobreNos/Sobrenos'
 import {Perfil} from './pages/Perfil/Perfil'
 import {Requisicao} from "./pages/Requisiçao/Requisiçao"
 import { Reciclagem } from './pages/Reciclagem/Reciclagem';
+import { Recuperacao } from './pages/Recuperacao/Recuperacao';
 
 import React from 'react'
 import { login } from './pages/Login/Login';
@@ -21,6 +22,7 @@ function Routes() {
                     <Route path="/login" component={login}/>
                     <Route path="/cadastro" component={Cadastro}/>
                     <Route path="/reciclagem" component={Reciclagem}/>
+                    <Route path="/recuperacao" component={Recuperacao}/>
                 </Switch>
             </BrowserRouter>
         </div>

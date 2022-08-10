@@ -2,7 +2,7 @@ const { default: styled } = require("styled-components");
 
 export const Container = styled.div` 
     background-color: #6F8F4E;
-    height: 80px;
+    height: 90px;
     max-height: 320px;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,7 @@ export const Container = styled.div`
   .logo {
     width: 70px;
     margin-left: 30px;
+    margin-top: 5px;
   }
 
   header {

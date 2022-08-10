@@ -10,7 +10,7 @@ export function Reciclagem(){
 
             <Container>
             <Header />
-                <h1>Reciclaveis</h1>
+                <h1>Recicláveis</h1>
                     <RecVidro/>
                     <RecPlastico/> 
                     <RecPapel/>   

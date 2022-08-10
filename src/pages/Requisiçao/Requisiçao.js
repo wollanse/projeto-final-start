@@ -23,22 +23,22 @@ export function Requisicao(){
                     <textarea rows={10} cols={40}  placeholder="Materiais descartados" />
                 </form>
 
-                <MyButton width={"200px"} text={"Solicitar"} handle={() => alert("Foi solicitado")} /> 
+                <MyButton width={"200px"} text={"Solicitar"} handle={() => alert("Foi solicitado")} color="#33B652" backcolor="green"/> 
             </styles.Left>
             <styles.Right>
                 <h1>INSTRUÇÕES</h1>
                 <ol>
                     <li>Separar o lixo reclicado em várias<br/>
                         sacolas diferentes antes da coleta.</li>
-                    <li>Lavar bem as garrafas, caixais,<br/> 
-                        potes e oque mais você estiver<br/>
+                    <li>Lavar bem as garrafas, caixas,<br/> 
+                        potes e o que mais você estiver<br/>
                         reciclando.</li>
                     <li>Sempre ter alguém no dia da<br/> 
                         coleta ou manter ele fora da<br/>
                         residência.</li>
                     <li>Caso não saiba separar, todo os<br/> 
                         residuos em sua casa, leia a página<br/>
-                        de recicláveis. </li>
+                        de Reciclagem. </li>
                 </ol>
                 <img className="imgreq" src={Imgreq} alt="ImgReq"/>
             </styles.Right>

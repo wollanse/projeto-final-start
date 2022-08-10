@@ -28,11 +28,11 @@ export const formStyles = styled.div `
         align-items: center;
 
         input{
-            width: 75%;
+            width: 90%;
             padding: 10px;
             border: 1px solid ${colors.grey};
             border-radius: 4px;
-            background: #D7D3BC;
+            background: #F9F3D4;
             margin-bottom: 15px;
         }
 
@@ -41,12 +41,12 @@ export const formStyles = styled.div `
             justify-content: center;
 
             .adress{
-                width: 40%;
+                width: 50%;
                 margin-right: 15px;
             }
 
             .numero{
-                width: 25%;
+                width: 30%;
             }
         }
     }

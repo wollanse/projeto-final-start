@@ -6,7 +6,7 @@ export const Container = styled.div `
     background: url(${Background});
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ export const Container = styled.div `
     
 
     img{
-        width: 240px;
+        width: 280px;
         margin-top: 20px;
     }
     h1{
@@ -24,25 +24,34 @@ export const Container = styled.div `
 `
 
 export const FormStyle = styled.div`
-  min-height: 300px;
-  align-items: center;
-  text-align: center;
-  padding: 30px 30px 0px 30px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+  form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
   input{
-    width: 200px;
-    height: 30px;
+    width: 500px;
+    height: 40px;
     border-radius: 5px;
     margin: 10px 4px;
     border: 1px solid ${colors.grey};
-    background: #D7D3BC;
+    background: #F9F3D4;
   }
-  .button{
-    justify-content: space-evenly;
+
+}
+.button{
     display: flex;
-    margin: 20px;
+    margin: 10px;
+    padding: 1rem;
+    gap: 13rem;
 
-
+    
   }
+
 
 `

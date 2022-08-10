@@ -11,29 +11,23 @@ export const Perfil = () => {
             <Header />
             <S.Container>
                 <img src={logo} alt='logo' />
-                <h1>Informaçoes do usuario</h1>
+                <h1>Informações do usuário</h1>
                 <S.FormStyle>
                 <form>
-                    <div>
                         <input type='text' placeholder="Nome"></input>
                         <input type='text' placeholder="CEP"></input>
-                    </div>
-                    <div>
                         <input type='text' placeholder="Endereço"></input>
-                        <input type='text' placeholder="Telefone"></input>
                         <input type='text' placeholder="N°"></input>
-                    </div>
-                    <div>
+                        <input type='text' placeholder="Telefone"></input>
                         <input type='e-mail' placeholder="E-mail"></input>
                         <input type='password' placeholder="Senha"></input>
-                    </div>
                 </form>
                 <div className="button">
                     <div>
-                    <MyButton text={"Alterar dados"} width="150px"/>
+                    <MyButton text={"Alterar dados"} width="150px" color="#33B652" backcolor="green"/>
                     </div>
                     <div>
-                    <MyButton text={"Deletar conta"} width="150px"/>
+                    <MyButton text={"Deletar conta"} width="150px" color="#FF4040" backcolor="red"/>
                     </div>
                 </div>
                 </S.FormStyle>

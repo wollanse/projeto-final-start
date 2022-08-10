@@ -18,7 +18,7 @@ function Hcomp(){
             <img className='img2' src={Ellipse} alt='Ellipse'/>
         </div>
         
-        <div className='text'><nobr>Acumulo de lixo</nobr></div>
+        <div className='text'><nobr>Acúmulo de lixo</nobr></div>
 
         <div className='text'><nobr>Reciclagem</nobr></div>
 

@@ -11,7 +11,7 @@ export const MainContainer = styled.div `
     background-position: fixed;
     height: 100%;
 `;
-export const formStyles = styled.div ` 
+export const FormStyles = styled.div ` 
     display: flex;
     justify-content: center;
     align-items: center;

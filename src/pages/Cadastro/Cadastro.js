@@ -22,7 +22,7 @@ export function Cadastro(){
                         <input placeholder="Senha"/>
                         <input placeholder="Confirma senha"/>
                     </form>
-                    <MyButton text={"Criar"} width="150px" />
+                    <MyButton text={"Criar"} width="150px" color="#33B652" backcolor="green"/>
                 </S.formStyles>
                 <Footer/>
             </S.MainContainer>

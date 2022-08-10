@@ -40,7 +40,7 @@ export const Left = styled.div `
             border-radius: 5px;
             padding: 10px;
             margin-top: 15px;
-            background-color: #D7D3BC;
+            background-color: #F9F3D4;
         }
     }
 

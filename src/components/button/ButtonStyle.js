@@ -5,7 +5,7 @@ export const ButtonStyle = styled.button`
     cursor: pointer;
     width: ${(props) => props.width};
     height: ${(props) => props.height};
-    background: ${colors.green};
+    background: ${(props) => props.color};
     padding: 10px 45px;
     border: none;
     border-radius: 10px;
@@ -15,6 +15,6 @@ export const ButtonStyle = styled.button`
     font-size: 16px;
 
     &:hover{
-        background: green;
+        background: ${(props) => props.backcolor};
     }
 `;
