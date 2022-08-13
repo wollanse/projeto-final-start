@@ -1,12 +1,10 @@
 import { MyButton } from "../../components/button/Button"
 import * as S from "./PerfilStyle"
 import logo from "../../assets/logoprojeto.svg"
- 
 
 export const Perfil = () => {
     return(
         <section>
-
             <S.Container>
                 <img src={logo} alt='logo' />
                 <h1>Informações do usuário</h1>
@@ -22,10 +20,10 @@ export const Perfil = () => {
                 </form>
                 <div className="button">
                     <div>
-                    <MyButton text={"Alterar dados"} width="150px" color="#33B652" backcolor="green"/>
+                    <MyButton text={"Alterar dados"} width="110px" color="#33B652" backcolor="green"/>
                     </div>
                     <div>
-                    <MyButton text={"Deletar conta"} width="150px" color="#FF4040" backcolor="red"/>
+                    <MyButton text={"Deletar conta"} width="110px" color="#FF4040" backcolor="red"/>
                     </div>
                 </div>
                 </S.FormStyle>

@@ -24,6 +24,12 @@ export const Container = styled.div `
     @media screen and (max-width:1360px){
     background-color: #C9C4A6;
     background-image: none;
+    img{
+        width: 200px;
+    }
+    h1{
+        font-size: 15px;
+    }
     }
 
 `
@@ -40,7 +46,7 @@ export const FormStyle = styled.div`
         justify-content: center;
         align-items: center;
   input{
-    width: 500px;
+    width: 400px;
     height: 40px;
     border-radius: 5px;
     margin: 10px 4px;
@@ -54,9 +60,24 @@ export const FormStyle = styled.div`
       margin: 10px;
       padding: 1rem;
       gap: 13rem;
-
-      
+  
     }
 
+    @media screen and (max-width:1360px){
+        width: 100%;
+        form input{
+            width: 200px;
+            height: 40px;
+            border-radius: 5px;
+            margin: 10px 4px;
+            border: 1px solid ${colors.grey};
+            background: #F9F3D4;
+        }
+        .button{
+            display: flex;
+            padding: 1rem;
+            gap: 2rem;
 
+        }
+    }
 `

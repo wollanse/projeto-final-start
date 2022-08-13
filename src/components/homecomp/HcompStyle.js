@@ -6,7 +6,7 @@ export const Container = styled.div`
     margin-left: 310px;
     margin-top: 140px;
     display: grid;
-    grid-template-columns: auto 135px auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 6rem;
     padding: 1rem;
     nobr{

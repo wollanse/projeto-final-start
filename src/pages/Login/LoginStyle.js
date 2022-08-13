@@ -9,6 +9,10 @@ export const MainContainer = styled.div `
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    @media screen and (max-width:1360px){
+    background-color: #C9C4A6;
+    background-image: none;
+    }
 `;
 export const FormStyles = styled.div ` 
     display: flex;
@@ -47,5 +51,26 @@ export const FormStyles = styled.div `
     h1{
         font-size: 35px;
     }
-
+    @media screen and (max-width:1360px) {
+        margin-top: 0;
+        img{
+            width: 205px;
+            height: 80px; 
+        }
+        form input{
+            width: 200px;
+            height: 10px;
+            padding: 20px;
+            border: 1px solid ${colors.grey};
+            border-radius: 4px;
+            background: #D7D3BC;
+            margin-bottom: 15px;
+        }
+        a{
+            margin-left: 15px;
+            font-size: 10px;
+            color:#114DA6;
+        }
+        
+    }
 `;

@@ -58,4 +58,24 @@ export const Container = styled.div`
     padding: 5px 15px;
     border-radius: 15px;
   }
+  svg{
+    display: none;
+  }
+
+  @media screen and (max-width:1200px){
+    width: 100%;
+    header{
+      display: none;
+    }
+  
+    #logcad{
+      display: none;
+    }
+    svg{
+      width:3rem;
+      height: 3rem;
+      color: #fff;
+      display: block;
+    }
+  }
 `

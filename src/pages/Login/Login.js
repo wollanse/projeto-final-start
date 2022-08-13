@@ -22,7 +22,7 @@ export function Login(){
                     <input type='checkbox' id='check'/>
                     <label for="check">lembre-se de mim</label>
                     </div>
-                    <MyButton text={"Login"} width="150px" color="#33B652" backcolor="green"/>
+                    <MyButton text={"Login"} width="150px" height="60px" color="#33B652" backcolor="green"/>
                 </S.FormStyles>
         </S.MainContainer>
     )
