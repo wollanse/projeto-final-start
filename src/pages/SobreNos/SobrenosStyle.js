@@ -11,7 +11,7 @@ export const Container = styled.div`
     .group{
         justify-content: space-evenly;
         display: flex;
-        margin-top: 80px;
+        padding-top: 4rem;
         
         .link{
             display: flex;

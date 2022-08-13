@@ -8,20 +8,19 @@ export const MainContainer = styled.div `
     background: url(${background});
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    height: 100%;
+    height: 100vh;
 `;
 export const FormStyles = styled.div ` 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 35px 0;
+    margin-top: -10px;
 
     img{
         width: 285px;
         height: 140px;
-        margin: 7px 0;
+        padding-top: 5rem;
     }
     form{
 

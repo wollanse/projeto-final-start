@@ -13,12 +13,12 @@ export const formStyles = styled.div `
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 30px 0;
+    margin-top: -10px;
 
     img{
         width: 300px;
         margin-bottom: 15px;
-        margin: 25px 0;
+        padding: 2rem;
     }
     form{
 
@@ -50,5 +50,4 @@ export const formStyles = styled.div `
             }
         }
     }
-
 `;

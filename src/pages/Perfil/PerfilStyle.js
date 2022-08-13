@@ -21,6 +21,11 @@ export const Container = styled.div `
         font-size: 30px;
     }
 
+    @media screen and (max-width:1360px){
+    background-color: #C9C4A6;
+    background-image: none;
+    }
+
 `
 
 export const FormStyle = styled.div`
@@ -43,15 +48,15 @@ export const FormStyle = styled.div`
     background: #F9F3D4;
   }
 
-}
-.button{
-    display: flex;
-    margin: 10px;
-    padding: 1rem;
-    gap: 13rem;
-
-    
   }
+  .button{
+      display: flex;
+      margin: 10px;
+      padding: 1rem;
+      gap: 13rem;
+
+      
+    }
 
 
 `

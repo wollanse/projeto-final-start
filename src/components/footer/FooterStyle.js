@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: 40px;
     max-height: 100px;
     display: flex;
+    width: 100%;
     
     
     p{

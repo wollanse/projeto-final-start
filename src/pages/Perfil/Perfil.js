@@ -1,6 +1,4 @@
 import { MyButton } from "../../components/button/Button"
-import { Header } from '../../components/Header/Header'
-import Footer from "../../components/footer/Footer"
 import * as S from "./PerfilStyle"
 import logo from "../../assets/logoprojeto.svg"
  
@@ -8,7 +6,7 @@ import logo from "../../assets/logoprojeto.svg"
 export const Perfil = () => {
     return(
         <section>
-            <Header />
+
             <S.Container>
                 <img src={logo} alt='logo' />
                 <h1>Informações do usuário</h1>
@@ -32,7 +30,7 @@ export const Perfil = () => {
                 </div>
                 </S.FormStyle>
             </S.Container>
-            <Footer />
+
         </section>
     )
 }

@@ -3,7 +3,7 @@ export const Container = styled.div`
       background-image: url(${require(`../../assets/background.png`)});
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: fixed;
+
       height: 100%;
     * {
       margin: 0;
@@ -37,5 +37,37 @@ export const Container = styled.div`
           margin-top: 15px;
           margin-left: 23px;
       }
+    
+    @media screen and (max-width:1360px){
+        background-color: #C9C4A6;
+        background-image: none;
+
+        .imgh{
+          display: none;
+        }
+        .textop{
+          margin-left: 0;
+          margin-top: 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 80vh;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          
+        }
+        h1{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+          padding: 1rem;
+        }
+        li{
+          font-size: 1rem;
+        }
+
+    }
 ` 
   

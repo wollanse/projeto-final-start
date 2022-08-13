@@ -13,6 +13,8 @@ export const ButtonStyle = styled.button`
     font-weight: bold;
     font-weight: 800;
     font-size: 16px;
+    padding: ${(props) => props.padding};
+    margin: ${(props) => props.margin};
 
     &:hover{
         background: ${(props) => props.backcolor};

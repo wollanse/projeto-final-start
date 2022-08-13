@@ -1,15 +1,13 @@
 import Imghome from '../../assets/imghome.png';
 import {Container} from './HomeStyle.js'
-import { Header } from '../../components/Header/Header'
 import Hcomp from '../../components/homecomp/Hcomp.js'
-import Footer from '../../components/footer/Footer.js'
+
+
 
 
 function Home(){
     return(
     <Container>
-            <Header />
-        <body>
             <div className='home'>
             <div className='textop'>
                 <h1>Você recicla lixo?<br/>
@@ -29,9 +27,7 @@ function Home(){
                 <img src={Imghome} alt='imghome'/>
             </div>
             </div>
-        </body>
         <Hcomp />
-        <Footer />
     </Container>     
     )
 }

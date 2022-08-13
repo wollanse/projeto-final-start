@@ -1,14 +1,12 @@
 import React from "react"
 import * as styles from "./RequisiçaoStyle.js"
 import { MyButton } from "../../components/button/Button.js"
-import { Header } from "../../components/Header/Header.js"
 import Imgreq from "../../assets/imgReq.png"
-import Footer from "../../components/footer/Footer"
+
 
 export function Requisicao(){
     return (
         <section>
-            <Header />
             <styles.Container>
             <styles.Left>
                 <h1>Faça agora a sua <br/> requisição</h1>
@@ -43,7 +41,6 @@ export function Requisicao(){
                 <img className="imgreq" src={Imgreq} alt="ImgReq"/>
             </styles.Right>
         </styles.Container>
-        <Footer />
         </section>
     )
 }

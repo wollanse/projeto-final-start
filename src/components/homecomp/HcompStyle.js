@@ -22,5 +22,7 @@ export const Container = styled.div`
     .text{
         margin-top: 18px;
     }
-
+    @media screen and (max-width:1360px){
+        display: none;
+    }
 `

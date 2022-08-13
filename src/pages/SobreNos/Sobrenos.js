@@ -4,15 +4,13 @@ import eri from '../../assets/eri.png'
 import gab from "../../assets/gab.png"
 import linked from '../../assets/linkedin.png'
 import git from '../../assets/GitHUb.png'
-import { Header } from '../../components/Header/Header'
-import Footer from "../../components/footer/Footer"
+
 
 
 export const Sobrenos = () => {
     return(
         <section>
         <Container>
-            <Header/>
             <div className="group">
             <div>
                 <img className="img1" src={wol} alt="Wollanse"/>
@@ -61,7 +59,6 @@ export const Sobrenos = () => {
                     um mundo melhor e <br/>limpo para se viver.</p1>
             </div>
         </Container>
-        <Footer/>
         </section>
 
     )
