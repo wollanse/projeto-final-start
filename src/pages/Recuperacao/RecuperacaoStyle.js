@@ -45,6 +45,6 @@ export const FormStyles = styled.div`
     }
     button{
         margin-bottom: 7%;
-        margin-top: 1%;
+        margin-top: 6%;
     }
 `

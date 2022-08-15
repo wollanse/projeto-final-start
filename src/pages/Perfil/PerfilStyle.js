@@ -21,7 +21,7 @@ export const Container = styled.div `
         font-size: 30px;
     }
 
-    @media screen and (max-width:1360px){
+    @media screen and (max-width:1200px){
     background-color: #C9C4A6;
     background-image: none;
     img{
@@ -63,7 +63,7 @@ export const FormStyle = styled.div`
   
     }
 
-    @media screen and (max-width:1360px){
+    @media screen and (max-width:1200px){
         width: 100%;
         form input{
             width: 200px;

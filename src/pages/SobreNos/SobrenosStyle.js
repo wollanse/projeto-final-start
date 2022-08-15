@@ -36,9 +36,10 @@ export const Container = styled.div`
     }
     .text{
         font-size: 25px;
-        margin-left: 19%;
+        margin-left: 1%;
         padding: 2rem;
         margin-top: 60px;
+        text-align: center;
     }
 
 `

@@ -11,45 +11,43 @@ function Hcomp(){
         <div>
             <img className='img1' src={Group1} alt='Group1'/>
                 <p>Nos ajude a manter as ruas<br/>
-                mais limpas e bonitas.</p> 
+                limpas e bonitas.</p> 
         </div>
 
         <div>
             <img className='img2' src={Ellipse} alt='Ellipse'/>
         </div>
         
-        <div className='text'><nobr>Acúmulo de lixo</nobr></div>
+        <div className='text negrito'><nobr>Acúmulo de lixo</nobr></div>
 
-        <div className='text'><nobr>Reciclagem</nobr></div>
+        <div className='text negrito'><nobr>Reciclagem</nobr></div>
 
         <div><img className='img2' src={Ellipse} alt='Ellipse'/></div>
 
         <div>
             <img className='img1' src={Group2} alt='Group2'/>
-                <p>“O lixo de um é o tesouro dos
-                    outros”,<br/> plastico, metal e outros
-                     podem ser reciclados para
-                     materia prima.</p>
+                <p>“O lixo de um é o tesouro de
+                    outros”,<br/> plástico, metal e outros
+                     podem ser reciclados tornando-se
+                     matéria prima.</p>
         </div>
         <div>
         <img className='img1' src={Group3} alt='Group3'/>
-                <p>Aquecimento global é um problema serio 
-                    das ultimas decadas.</p> 
+                <p>Aquecimento Global é um dos maiores problema 
+                    das últimas décadas.</p> 
         </div>
 
         <div><img className='img2' src={Ellipse} alt='Ellipse'/></div>
 
-        <div className='text'><nobr>Aquecimento global </nobr></div>
+        <div className='text negrito'><nobr>Aquecimento Global</nobr></div>
 
-        <div className='text'><nobr>Animais</nobr></div>
+        <div className='text negrito'><nobr>Destruição do Bioma</nobr></div>
 
         <div><img className='img2' src={Ellipse} alt='Ellipse'/></div>
 
         <div>
         <img className='img1' src={Group4} alt='Group4'/>
-                <p>animais são mortos por conta 
-                do excesso de lixo, invadindo
-                seus lares..</p> 
+                <p>Extinção animal acelerada de toda a cadeia animal e vegetal pelo excesso de poluição.</p> 
         </div>
         </Container>
         

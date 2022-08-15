@@ -18,10 +18,7 @@ export function Login(){
                         <a href='../Recuperacao/Recuperacao.js'>Esqueceu a senha? Recupere</a>
                         <a href='../Cadastro/Cadastro.js'>Não tem conta? Cadastre-se</a>
                     </div>
-                    <div>
-                    <input type='checkbox' id='check'/>
-                    <label for="check">lembre-se de mim</label>
-                    </div>
+                    <br/>
                     <MyButton text={"Login"} width="150px" height="60px" color="#33B652" backcolor="green"/>
                 </S.FormStyles>
         </S.MainContainer>

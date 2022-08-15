@@ -51,8 +51,9 @@ export const Sobrenos = () => {
             </div>
             </div>
             <div className="text">
+                <h1>O que motivou a criação do ColetaTech?</h1>
                 <p1>Nossa inspiração vem de nossa realidade, desde 
-                    as praias para as ruas,<br/> cobertas de lixo... nós 
+                    as praias até as ruas,<br/> cobertas de lixo... Nós 
                     temos uma cidade linda, infelizmente é dificil de 
                     <br/>
                     perceber com toda poluição, nós queremos fazer

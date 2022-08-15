@@ -38,7 +38,7 @@ export const Container = styled.div`
           margin-left: 23px;
       }
     
-    @media screen and (max-width:1360px){
+    @media screen and (max-width:1300px){
         background-color: #C9C4A6;
         background-image: none;
 

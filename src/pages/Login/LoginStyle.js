@@ -9,7 +9,7 @@ export const MainContainer = styled.div `
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    @media screen and (max-width:1360px){
+    @media screen and (max-width:1200px){
     background-color: #C9C4A6;
     background-image: none;
     }
@@ -51,7 +51,7 @@ export const FormStyles = styled.div `
     h1{
         font-size: 35px;
     }
-    @media screen and (max-width:1360px) {
+    @media screen and (max-width:1200px) {
         margin-top: 0;
         img{
             width: 205px;

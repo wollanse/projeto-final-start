@@ -10,9 +10,9 @@ export const ButtonStyle = styled.button`
     border: none;
     border-radius: 10px;
     color: ${colors.white};
-    font-weight: bold;
-    font-weight: 800;
-    font-size: 16px;
+    /* font-weight: bold;
+    font-weight: 800; */
+    font-size: 1.3em;
     padding: ${(props) => props.padding};
     margin: ${(props) => props.margin};
 
