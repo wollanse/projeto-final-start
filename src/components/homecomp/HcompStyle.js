@@ -3,7 +3,7 @@ const { default: styled } = require("styled-components");
 
 export const Container = styled.div`
     max-width: 750px;
-    margin-left: 310px;
+    margin-left: 230px;
     margin-top: 140px;
     display: grid;
     grid-template-columns: auto auto auto;
