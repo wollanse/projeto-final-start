@@ -46,7 +46,7 @@ export function Cadastro(){
          history.push('/login');
        }).catch(error => console.log(error))
       }else{
-        console.log("isso ta")
+        console.log("perfil nao cadastrado")
       }
     }
 

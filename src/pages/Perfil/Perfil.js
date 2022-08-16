@@ -30,7 +30,7 @@ export const Perfil = () => {
                         <input type='text' placeholder="Nome"></input>
                         <input type='text' placeholder="CEP"></input>
                         <input type='text' placeholder="Endereço"></input>
-                        <input type='text' placeholder="N°"></input>
+                        <input type='text' placeholder="Numero_casa"></input>
                         <input type='text' placeholder="Telefone"></input>
                         <input type='e-mail' placeholder="E-mail"></input>
                         <input type='password' placeholder="Senha"></input>

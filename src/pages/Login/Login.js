@@ -16,10 +16,6 @@ export function Login(){
     const { setToken } = useContext(Contexts);
     const history = useHistory();
 
-    
-
-
-
     function onChange(event) {
       const { value, name } = event.target;
   
@@ -40,7 +36,7 @@ export function Login(){
         console.log(res)
         token = res.data.token
         history.push('/');
-      })
+      }).catch(err => alert ("login invalido"))
   
       if (token) {
         setToken(token);
